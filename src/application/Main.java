@@ -7,7 +7,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-import javafx.scene.text.*;
 
 public class Main extends Application {
 
@@ -22,7 +21,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) {
         try {
             StackPane page = (StackPane) FXMLLoader.load(Main.class.getResource("test.fxml"));
-            Scene scene = new Scene(page);
+            Scene scene = new Scene(page, 840, 480);
             primaryStage.setScene(scene);
             primaryStage.setTitle("Endomondo");
             primaryStage.show();
