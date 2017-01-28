@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<StackPane prefHeight="150.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <GridPane hgap="5" vgap="5">
+	  	<GridPane hgap="5" vgap="5"
+	  		GridPane.columnIndex="0"
+	    	GridPane.rowIndex="0"
+	    	stylesheets="@./application.css"
+	    	styleClass="white-background"
+	  		>
+	  		<StackPane
+	  			GridPane.columnIndex="0"
+		    	GridPane.rowIndex="0"
+		    	styleClass="center-right"
+		    	prefWidth="130"
+		   	 >
+		    	<ImageView
+		    		GridPane.columnIndex="0"
+		    		GridPane.rowIndex="0"
+			    	>
+		    		<image >
+		    			<Image url="@./stickman.png"/>
+		    		</image>
+		    	</ImageView>
+		    </StackPane>
+		    <StackPane
+	  			GridPane.columnIndex="1"
+		    	GridPane.rowIndex="0"
+		    	styleClass="center-right"
+		    	prefWidth="650"
+		    	>
+		    	<Text text="RUNNING"
+		    		styleClass="running"
+		    		GridPane.columnIndex="1"
+		    		GridPane.rowIndex="0"
+		    		translateX="-15"
+		    	/>
+		    </StackPane>
+	  	</GridPane>
+	  	<GridPane hgap="5" vgap="5"
+	  		GridPane.columnIndex="0"
+	    	GridPane.rowIndex="1"
+	    	styleClass="grey-background"
+	    	prefHeight="120"
+	    	stylesheets="@./application.css"
+	    	>	
+	    	<Rectangle
+	    		styleClass="grey-rectangle"
+	    		GridPane.columnIndex="0"
+	    		GridPane.rowIndex="0"
+	    		width="420"
+	    		height="120"
+	    	/>
+	    	<StackPane
+	    		styleClass="top-left"
+	    		prefWidth="840"
+	    		>
+		    	<Text text="DURATION"
+		    		GridPane.columnIndex="0"
+		    		GridPane.rowIndex="0"
+		    		styleClass="description-large"
+		    		translateX="10"
+		    		translateY="10"
+		    	/>
+	    	</StackPane>
+	    	<StackPane
+	    		styleClass="bottom-right"
+	    		prefWidth="420"
+	    		>
+		    	<Text text="0:57:24"
+		    		GridPane.columnIndex="1"
+		    		GridPane.rowIndex="0"
+		    		styleClass="metric"
+		    		translateX="-5"
+		    	/>
+	    	</StackPane>
+	    </GridPane>
+	    <GridPane hgap="5" vgap="5"
+	  		GridPane.columnIndex="0"
+	    	GridPane.rowIndex="2"
+	    	styleClass="grey-background"
+	    	prefHeight="120"
+	    	stylesheets="@./application.css"
+	    	>	
+	    	<Rectangle
+	    		styleClass="grey-rectangle"
+	    		GridPane.columnIndex="0"
+	    		GridPane.rowIndex="0"
+	    		width="420"
+	    		height="120"
+	    	/>
+	    	<StackPane
+	    		styleClass="top-left"
+	    		prefWidth="840"
+	    		>
+		    	<Text text="DISTANCE"
+		    		GridPane.columnIndex="0"
+		    		GridPane.rowIndex="0"
+		    		styleClass="description-large"
+		    		translateX="10"
+		    		translateY="10"
+		    	/>
+		    	<Text text="km"
+		    		GridPane.columnIndex="0"
+		    		GridPane.rowIndex="0"
+		    		styleClass="description-small"
+		    		translateX="11"
+		    		translateY="45"
+		    	/>
+	    	</StackPane>
+	    	<StackPane
+	    		styleClass="bottom-right"
+	    		prefWidth="420"
+	    		>
+		    	<Text text="12.30"
+		    		GridPane.columnIndex="1"
+		    		GridPane.rowIndex="0"
+		    		styleClass="metric"
+		    		translateX="-5"
+		    	/>
+	    	</StackPane>
+	    </GridPane>
+    	<GridPane hgap="5" vgap="5"
+	  		GridPane.columnIndex="0"
+	    	GridPane.rowIndex="3"
+	    	styleClass="white-background"
+	    	prefHeight="120"
+	    	stylesheets="@./application.css"
+	    >
+	    	<StackPane
+	    		styleClass="grey-background"
+	    		prefWidth="420"
+	    		prefHeight="120"
+	    		GridPane.columnIndex="0"
+	    		GridPane.rowIndex="0"
+	    		>
+		    	<StackPane
+	    		styleClass="top-left"
+	    		prefWidth="840"
+	    		>
+			    	<Text text="HEART RATE"
+			    		GridPane.columnIndex="0"
+			    		GridPane.rowIndex="0"
+			    		styleClass="description-large"
+			    		translateX="10"
+			    		translateY="10"
+			    	/>
+			    	<Text text="bpm"
+			    		GridPane.columnIndex="0"
+			    		GridPane.rowIndex="0"
+			    		styleClass="description-small"
+			    		translateX="11"
+			    		translateY="45"
+			    	/>
+		    	</StackPane>
+		    	<StackPane
+		    		styleClass="bottom-right"
+		    		prefWidth="420"
+		    		>
+			    	<Text text="163"
+			    		GridPane.columnIndex="1"
+			    		GridPane.rowIndex="0"
+			    		styleClass="metric-sm"
+			    		translateX="-8"
+			    	/>
+		    	</StackPane>
+	    	</StackPane>
+	    	<StackPane
+	    		styleClass="grey-background"
+	    		prefWidth="420"
+	    		prefHeight="120"
+	    		GridPane.columnIndex="1"
+	    		GridPane.rowIndex="0"
+	    		>
+		    	<StackPane
+	    		styleClass="top-left"
+	    		prefWidth="840"
+	    		>
+			    	<Text text="AVG. SPEED"
+			    		GridPane.columnIndex="0"
+			    		GridPane.rowIndex="0"
+			    		styleClass="description-large"
+			    		translateX="10"
+			    		translateY="10"
+			    	/>
+			    	<Text text="km/h"
+			    		GridPane.columnIndex="0"
+			    		GridPane.rowIndex="0"
+			    		styleClass="description-small"
+			    		translateX="11"
+			    		translateY="45"
+			    	/>
+		    	</StackPane>
+		    	<StackPane
+		    		styleClass="bottom-right"
+		    		prefWidth="420"
+		    		>
+			    	<Text text="4:40"
+			    		GridPane.columnIndex="1"
+			    		GridPane.rowIndex="0"
+			    		styleClass="metric-sm"
+			    		translateX="-8"
+			    	/>
+		    	</StackPane>
+	    	</StackPane>
+	    </GridPane>
+	</GridPane>
+  </children>
+</StackPane>

@@ -1,0 +1,55 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/* .grey-background {
+	-fx-fill: #f3f3ee;
+}*/
+
+.grey-background {
+	-fx-background-color: f3f3ee;
+}
+
+.white-background {
+	-fx-background-color: #ffffff;
+}
+
+.grey-rectangle {
+	-fx-fill: f3f3ee;
+}
+
+.center-right {
+	-fx-alignment: center-right;
+}
+
+.bottom-right {
+	-fx-alignment: bottom-right;
+}
+
+.top-left {
+	-fx-alignment: top-left; 
+}
+
+.stickman {
+	-fx-graphic: url('./stickman.png')
+}
+
+.running {
+	-fx-font-size: 35;
+}
+
+.description-large {
+	-fx-font-size:32;
+}
+
+.description-small {
+	-fx-font-size:30;
+}
+
+.metric {
+	-fx-font-size: 80;
+	-fx-font-weight: bold;
+}
+
+.metric-sm {
+	-fx-font-size: 60;
+	-fx-font-weight: bold;
+}
